@@ -1,0 +1,6 @@
+export default {
+  // ...other config...
+  site: "https://yourname.github.io/yourrepo", // <-- set your actual URL here
+  // ...other config...
+  outDir: "dist", // (default)
+};
