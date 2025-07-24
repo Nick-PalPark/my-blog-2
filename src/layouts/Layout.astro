@@ -8,7 +8,7 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <title>{title} | Nick’s Diary</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href={`${import.meta.env.BASE_URL}styles.css`} />
   </head>
   <body>
     <nav>
