@@ -13,7 +13,7 @@ const { title } = Astro.props;
   <body>
     <nav>
       <a href="/">Home</a>
-      <a href="/about-me">About Me</a>
+      <a href={`${import.meta.env.BASE_URL}about-me`}>About Me</a>
     </nav>
     <main>
       <slot />
