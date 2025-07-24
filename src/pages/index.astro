@@ -1,12 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/layout.astro';
 ---
-
-<Layout title="Home">
-  <h1>Nick’s Diary</h1>
-  <p>Welcome! This is a personal blog/diary about technology, language, accessibility, and anything else I find interesting.</p>
-  <p>
-    <a href={`${import.meta.env.BASE_URL}/about-me`}>About Me</a>
-  </p>
-  <!-- You can list your latest blog entries here in the future -->
+<Layout>
+  <article>
+    <h2><a href="/posts/first-post">First Post Title</a></h2>
+    <div class="date">24 July 2025</div>
+    <p>Short summary of the post goes here...</p>
+  </article>
+  <!-- Repeat for more posts -->
 </Layout>
