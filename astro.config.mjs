@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://nick.github.io',
+  site: 'https://github.com/Nick-PalPark',
   base: '/my-blog-2', // ← match your repo name exactly
   output: 'static',
 });
