@@ -1,6 +1,7 @@
-export default {
-  // ...other config...
-  site: "https://yourname.github.io/yourrepo", // <-- set your actual URL here
-  // ...other config...
-  outDir: "dist", // (default)
-};
+import { defineConfig } from 'astro/config';
+
+export default defineConfig({
+  site: 'https://nick.github.io',
+  base: '/my-blog-2', // ← match your repo name exactly
+  output: 'static',
+});
