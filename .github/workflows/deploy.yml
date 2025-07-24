@@ -1,5 +1,5 @@
 name: Deploy Astro site to GitHub Pages
-
+      
 on:
   push:
     branches:
@@ -32,4 +32,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
-// ...existing code...
