@@ -1,0 +1,24 @@
+---
+import DiaryCard from '../components/DiaryCard.astro';
+
+const entries = [
+  {
+    image: "/images/balsam.jpg",
+    date: "WED 23RD JUL '25",
+    title: "Towering Balsam",
+    excerpt: "IT’S BEEN QUITE A WHILE SINCE I WAS OUT with Stroud Valleys Project, so it was nice to catch up with friends...",
+    url: "/posts/towering-balsam"
+  },
+  {
+    image: "/images/harvest.jpg",
+    date: "THU 10TH JUL '25",
+    title: "Freshford Harvest",
+    excerpt: "MY FIRST SEED HARVEST OF THE SEASON with Glorious Grasslands was a long way down. At the very bottom of the Cotswolds...",
+    url: "/posts/freshford-harvest"
+  },
+  // Add more entries as needed
+];
+---
+<div class="diary-grid">
+  {entries.map(entry => <DiaryCard {...entry} />)}
+</div>

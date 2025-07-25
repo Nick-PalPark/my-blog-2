@@ -1,0 +1,14 @@
+---
+const { image, date, title, excerpt, url } = Astro.props;
+---
+<div class="diary-card">
+  <div class="diary-card-image-wrapper">
+    <img src={image} alt={title} class="diary-card-image" />
+    <span class="diary-card-date">{date}</span>
+  </div>
+  <div class="diary-card-content">
+    <h2 class="diary-card-title">{title}</h2>
+    <p class="diary-card-excerpt">{excerpt}</p>
+    <a href={url} class="diary-card-link">READ MORE <span>&rarr;</span></a>
+  </div>
+</div>

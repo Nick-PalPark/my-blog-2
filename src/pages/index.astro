@@ -1,5 +1,7 @@
 ---
 import layout from '../layouts/layout.astro';
+import DiaryCard from '../components/DiaryCard.astro';
+import entries from '../data/entries.js'; // or your actual data source
 ---
 
 <layout>
@@ -10,4 +12,8 @@ import layout from '../layouts/layout.astro';
       <li><a href="/my-blog-2/posts">Posts</a></li>
     </ul>
   </nav>
+  
+  <div class="diary-grid">
+    {entries.map(entry => <DiaryCard {...entry} />)}
+  </div>
 </layout>
