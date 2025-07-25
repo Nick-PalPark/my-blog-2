@@ -1,6 +1,6 @@
 export default [
   {
-    image: "/images/balsam.jpg",
+    image: "/images/Totowah_Ttoekbokki and seafood bibimbap.jpg",
     date: "WED 23RD JUL '25",
     title: "Towering Balsam",
     excerpt: "IT’S BEEN QUITE A WHILE SINCE I WAS OUT with Stroud Valleys Project, so it was nice to catch up with friends...",
