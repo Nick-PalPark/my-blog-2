@@ -1,14 +1,19 @@
 ---
 const { children } = Astro.props;
-import '../src/global.css';
 ---
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <title>My Astro Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts for Inter and JetBrains Mono (as on the reference site) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/my-blog-2/styles.css" />
   </head>
   <body>
-    {children}
+    <div class="container">
+      {children}
+    </div>
   </body>
 </html>
