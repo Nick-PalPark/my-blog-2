@@ -7,12 +7,17 @@ const { children } = Astro.props;
     <meta charset="UTF-8" />
     <title>My Astro Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Google Fonts for Inter and JetBrains Mono (as on the reference site) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/my-blog-2/styles.css" />
   </head>
   <body>
     <div class="container">
+      <nav>
+        <ul>
+          <li><a href="/my-blog-2/about-me">About</a></li>
+          <li><a href="/my-blog-2/posts">Posts</a></li>
+        </ul>
+      </nav>
       {children}
     </div>
   </body>
