@@ -1,47 +1,151 @@
+/* Base fonts and reset */
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+  background: #181926;
+  color: #cad3f5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-  font-family: 'Georgia', serif;
-  background: #fff;
-  color: #222;
   margin: 0;
+  background: #181926;
+  color: #cad3f5;
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+  line-height: 1.65;
+}
+
+/* Container */
+.container {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', monospace;
+  color: #c6a0f6;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #c6a0f6;
+}
+h2 {
+  font-size: 1.6rem;
+  color: #f5a97f;
+}
+h3 {
+  font-size: 1.2rem;
+  color: #ed8796;
+}
+
+/* Navigation */
+nav {
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #363a4f;
+  padding-bottom: 0.75rem;
+}
+
+nav ul {
+  list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
 }
-header {
-  padding: 2em 0 1em 0;
-  text-align: center;
-  border-bottom: 1px solid #eee;
-}
-header h1 a {
-  color: #222;
+
+nav a {
+  color: #8aadf4;
   text-decoration: none;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: color 0.2s;
 }
-main {
-  max-width: 700px;
-  margin: 2em auto;
-  padding: 0 1em;
-}
-article {
-  margin-bottom: 2em;
-  padding-bottom: 1em;
-  border-bottom: 1px solid #eee;
-}
-article h2 {
-  margin: 0 0 0.5em 0;
-}
-article .date {
-  color: #888;
-  font-size: 0.9em;
-}
-footer {
-  text-align: center;
-  padding: 2em 0 1em 0;
-  color: #888;
-  font-size: 0.9em;
-  border-top: 1px solid #eee;
-}
-a {
-  color: #007acc;
+nav a:hover {
+  color: #f5a97f;
   text-decoration: underline;
 }
+
+/* Links */
+a {
+  color: #8aadf4;
+  text-decoration: underline;
+}
+
 a:hover {
-  color: #005fa3;
+  color: #f5a97f;
+  text-decoration: underline;
+}
+
+/* Paragraphs and content */
+p, li {
+  font-size: 1.05rem;
+  color: #cad3f5;
+}
+
+ul, ol {
+  padding-left: 1.3rem;
+}
+
+/* Code blocks */
+pre, code {
+  font-family: 'JetBrains Mono', monospace;
+  background: #24273a;
+  color: #a6da95;
+  border-radius: 4px;
+  padding: 0.2em 0.5em;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* Miscellaneous */
+hr {
+  border: 0;
+  border-top: 1px solid #363a4f;
+  margin: 2.5rem 0;
+}
+
+blockquote {
+  border-left: 3px solid #a6da95;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  color: #f5a97f;
+  background: #232946;
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 1.5rem 0.5rem;
+  }
+  nav ul {
+    gap: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Optional: Customize scrollbars for a nice touch */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #24273a;
+}
+::-webkit-scrollbar-thumb {
+  background: #363a4f;
+  border-radius: 4px;
 }
