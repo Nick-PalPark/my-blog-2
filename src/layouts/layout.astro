@@ -1,0 +1,14 @@
+---
+const { children } = Astro.props;
+import '../src/global.css';
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Astro Blog</title>
+    <link rel="stylesheet" href="/my-blog-2/public/styles.css" />
+  </head>
+  <body>
+    {children}
+  </body>
+</html>
