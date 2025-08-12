@@ -1,19 +1,16 @@
 ---
-import layout from '../layouts/layout.astro';
+import Layout from '../layouts/Layout.astro';
+const layout = Layout;
 import DiaryCard from '../components/DiaryCard.astro';
 import entries from '../data/entries.js';
 ---
-
-<layout>
-  <h1>Welcome to My Astro Blog!</h1>
-  <nav>
-    <ul>
-      <li><a href="/my-blog-2/About-me">About</a></li>
-      <li><a href="/my-blog-2/posts">Posts</a></li>
-    </ul>
-  </nav>
-  
-  <div class="diary-grid">
-    {entries.map(entry => <DiaryCard {...entry} />)}
-  </div>
-</layout>
+<h1>Welcome to My Astro Blog!</h1>
+<nav>
+  <ul>
+    <li><a href="/my-blog-2/About-me">About</a></li>
+    <li><a href="/my-blog-2/posts">Posts</a></li>
+  </ul>
+</nav>
+<div class="diary-grid">
+  {entries.map(entry => <DiaryCard {...entry} />)}
+</div>

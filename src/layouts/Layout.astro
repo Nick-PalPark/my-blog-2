@@ -1,0 +1,17 @@
+---
+// filepath: /workspaces/my-blog-2/src/layouts/Layout.astro
+import "../styles/global.css";
+const { children } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Astro Blog</title>
+    <slot name="head" />
+  </head>
+  <body>
+    <main>
+      {children}
+    </main>
+  </body>
+</html>
