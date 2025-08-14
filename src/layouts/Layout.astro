@@ -1,7 +1,7 @@
 ---
-// filepath: /workspaces/my-blog-2/src/layouts/Layout.astro
 import "../styles/global.css";
-const { children } = Astro.props;
++ const props = Astro.props;
++ const { children } = props;
 ---
 <html lang="en">
   <head>
@@ -9,9 +9,10 @@ const { children } = Astro.props;
     <title>My Astro Blog</title>
     <slot name="head" />
   </head>
-  <body>
     <main>
-      {children}
+      <slot />
+      <slot />
+    </main>
     </main>
   </body>
 </html>
