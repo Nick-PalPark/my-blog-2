@@ -1,10 +1,11 @@
 ---
+// filepath: /workspaces/my-blog-2/src/components/DiaryCard.astro
 const { image, date, title, excerpt, url } = Astro.props;
 ---
-<div class="diary-card">
+<div class="diary-card landscape-card">
+  <span class="diary-card-date">{date}</span>
   <div class="diary-card-image-wrapper">
     <img src={image} alt={title} class="diary-card-image" />
-    <span class="diary-card-date">{date}</span>
   </div>
   <div class="diary-card-content">
     <h2 class="diary-card-title">{title}</h2>
