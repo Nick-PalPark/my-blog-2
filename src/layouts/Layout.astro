@@ -1,7 +1,6 @@
 ---
 import "../styles/global.css";
-+ const props = Astro.props;
-+ const { children } = props;
+const { children } = Astro.props;
 ---
 <html lang="en">
   <head>
@@ -9,10 +8,9 @@ import "../styles/global.css";
     <title>My Astro Blog</title>
     <slot name="head" />
   </head>
+  <body>
     <main>
-      <slot />
-      <slot />
-    </main>
+      {children}
     </main>
   </body>
 </html>
