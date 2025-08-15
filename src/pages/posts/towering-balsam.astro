@@ -1,18 +1,20 @@
 ---
 // filepath: /workspaces/my-blog-2/src/pages/posts/towering-balsam.astro
 import Layout from '../../layouts/Layout.astro';
+import DiaryEntry from '../../components/DiaryEntry.astro';
 
 const title = "Towering Balsam";
 const date = "WED 23RD JUL '25";
 const image = "/my-blog-2/images/Ttoekbokki.jpg";
+const excerpt = "IT’S BEEN QUITE A WHILE SINCE I WAS OUT with Stroud Valleys Project, so it was nice to catch up with friends...";
+const url = "/my-blog-2/posts/towering-balsam";
 ---
 <Layout title={title}>
-  <article>
-    <h1>{title}</h1>
-    <p><em>{date}</em></p>
-    <img src={image} alt={title} style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
-    <p>
-      IT’S BEEN QUITE A WHILE SINCE I WAS OUT with Stroud Valleys Project, so it was nice to catch up with friends.
-    </p>
-  </article>
+  <DiaryEntry
+    image={image}
+    date={date}
+    title={title}
+    excerpt={excerpt}
+    url={url}
+  />
 </Layout>

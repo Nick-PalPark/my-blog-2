@@ -1,7 +1,7 @@
 ---
 // filepath: /workspaces/my-blog-2/src/pages/posts/heritage-heroes.astro
 import Layout from '../../layouts/Layout.astro';
-import DiaryCard from '../../components/DiaryCard.astro';
+import DiaryEntry from '../../components/DiaryEntry.astro';
 
 const title = "Heritage Heroes";
 const date = "WED 9TH JUL '25";
@@ -10,7 +10,7 @@ const excerpt = "A MID MORNING APPOINTMENT AT THE council chambers at Ebley wher
 const url = "/my-blog-2/posts/heritage-heroes";
 ---
 <Layout title={title}>
-  <DiaryCard
+  <DiaryEntry
     image={image}
     date={date}
     title={title}
