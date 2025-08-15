@@ -1,16 +1,17 @@
 ---
-import "../styles/global.css";
-const { children } = Astro.props;
+import '../styles/global.css';
+
+const { title } = Astro.props;
 ---
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>My Astro Blog</title>
-    <slot name="head" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
   </head>
   <body>
     <main>
-      {children}
+      <slot />
     </main>
   </body>
 </html>
