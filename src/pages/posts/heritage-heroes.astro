@@ -1,18 +1,20 @@
 ---
 // filepath: /workspaces/my-blog-2/src/pages/posts/heritage-heroes.astro
 import Layout from '../../layouts/Layout.astro';
+import DiaryCard from '../../components/DiaryCard.astro';
 
 const title = "Heritage Heroes";
 const date = "WED 9TH JUL '25";
 const image = "/my-blog-2/images/Ttoekbokki.jpg";
+const excerpt = "A MID MORNING APPOINTMENT AT THE council chambers at Ebley where the students at the Star College were presented with their awards...";
+const url = "/my-blog-2/posts/heritage-heroes";
 ---
 <Layout title={title}>
-  <article>
-    <h1>{title}</h1>
-    <p><em>{date}</em></p>
-    <img src={image} alt={title} style="max-width: 100%; border-radius: 8px; margin-bottom: 1rem;">
-    <p>
-      A MID MORNING APPOINTMENT AT THE council chambers at Ebley where the students at the Star College were presented with their awards.
-    </p>
-  </article>
+  <DiaryCard
+    image={image}
+    date={date}
+    title={title}
+    excerpt={excerpt}
+    url={url}
+  />
 </Layout>
