@@ -37,6 +37,7 @@ body {
   box-shadow: 0 1px 0 #f5e6c8 inset;
   opacity: 0.5;
 }
+
 .landscape-card {
   display: flex;
   align-items: center;
@@ -59,8 +60,20 @@ body {
   width: 120px;
   height: auto;
   border-radius: 8px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.landscape-card .diary-card-image-wrapper a:hover img {
+  box-shadow: 0 0 0 4px #0077cc33;
+  transform: scale(1.03);
 }
 
 .landscape-card .diary-card-content {
   flex: 1;
+}
+
+.intro {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 2rem;
 }
