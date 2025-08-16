@@ -1,0 +1,12 @@
+---
+// filepath: /workspaces/my-blog-2/src/pages/food.astro
+import Layout from '../layouts/Layout.astro';
+import FoodDiaryCard from '../components/FoodDiaryCard.astro';
+import foodDiary from '../data/foodDiary.js';
+---
+<Layout title="Food Diary">
+  <h1>Food Diary</h1>
+  <div class="diary-grid">
+    {foodDiary.map(entry => <FoodDiaryCard {...entry} />)}
+  </div>
+</Layout>

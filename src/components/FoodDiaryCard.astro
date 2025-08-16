@@ -1,0 +1,19 @@
+---
+// filepath: /workspaces/my-blog-2/src/components/FoodDiaryCard.astro
+const { date, restaurant, dish, image, excerpt, googleMapsUrl } = Astro.props;
+---
+<div class="diary-card landscape-card">
+  <span class="diary-card-date">{date}</span>
+  <div class="diary-card-image-wrapper">
+    <a href={googleMapsUrl} target="_blank" rel="noopener">
+      <img src={image} alt={dish} class="diary-card-image" />
+    </a>
+  </div>
+  <div class="diary-card-content">
+    <h2 class="diary-card-title">{restaurant}: {dish}</h2>
+    <p class="diary-card-excerpt">{excerpt}</p>
+    <a href={googleMapsUrl} target="_blank" rel="noopener" class="diary-card-link">
+      View Google Maps Review <span>&rarr;</span>
+    </a>
+  </div>
+</div>
