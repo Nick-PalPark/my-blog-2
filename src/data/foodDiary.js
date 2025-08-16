@@ -1,13 +1,13 @@
 const foodDiary = [
   {
     date: "2025-07-15",
-    restaurant: "Seoul Garden",
-    dish: "Bibimbap",
-    image: "/my-blog-2/images/seoul-garden-bibimbap.jpg",
-    excerpt: "Delicious bibimbap with fresh veggies and spicy gochujang.",
-    googleMapsUrl: "https://goo.gl/maps/your-google-maps-link"
+    restaurant: "산들애건강밥상",
+    dish: "Ttoekbokki",
+    image: "/my-blog-2/public/images/Ttoekbokki.jpg",
+    excerpt: "Delicious healthy food.  You need to order when you get a ticket to wait in line so be organized.  Wasn't a long wait.  Lots of side dishes and a really succulent spicy octopus.  The potato pancake is their thing and is delicious and easy to eat a lot of!",
+    googleMapsUrl: "https://maps.app.goo.gl/91GRFNrWhoKfuD9v6"
   },
-  // Add more entries here
+
 ];
 
 export default foodDiary;
