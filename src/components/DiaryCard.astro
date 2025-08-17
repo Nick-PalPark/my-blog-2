@@ -8,16 +8,16 @@ const { image, date, title, excerpt, url } = Astro.props;
 
   <div class="diary-card-image-wrapper">
     <a href={url}>
-      <img src={image} alt={title} class="diary-card-image" />
+      <img src={image} alt={title ?? 'Post image'} class="diary-card-image" />
     </a>
   </div>
 
   <div class="diary-card-content">
-    <h2 class="diary-card-title">{title}</h2>
+    <h2 class="diary-card-title">{title ?? 'Untitled'}</h2>
     <p class="diary-card-excerpt">{excerpt}</p>
 
     <div style="margin-top:0.5rem;">
       <a href={url} class="diary-card-link">READ ON <span>&rarr;</span></a>
     </div>
   </div>
-</div
+</div>
