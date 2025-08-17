@@ -1,15 +1,27 @@
 ---
 // filepath: /workspaces/my-blog-2/src/components/DiaryCard.astro
-const { image, date, title, excerpt, url } = Astro.props;
+const { image, date, title, excerpt, url, googleMapsUrl } = Astro.props;
 ---
 <div class="diary-card landscape-card">
   <span class="diary-card-date">{date}</span>
+
   <div class="diary-card-image-wrapper">
-    <img src={image} alt={title} class="diary-card-image" />
+    <a href={url}>
+      <img src={image} alt={title} class="diary-card-image" />
+    </a>
   </div>
+
   <div class="diary-card-content">
     <h2 class="diary-card-title">{title}</h2>
     <p class="diary-card-excerpt">{excerpt}</p>
-    <a href={url} class="diary-card-link">READ MORE <span>&rarr;</span></a>
+
+    <div style="margin-top:0.5rem;">
+      <a href={url} class="diary-card-link">READ MORE <span>&rarr;</span></a>
+      {googleMapsUrl ? (
+        <span style="margin-left:1rem;">
+          <a href={googleMapsUrl} target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+        </span>
+      ) : null}
+    </div>
   </div>
 </div>
