@@ -2,157 +2,16 @@
   {
     "title": "London Bagel Museum Anguk",
     "url": "https://maps.app.goo.gl/Nh4CBH1eMuL5wr7EA",
-    "placeQuery": "Bagel, Seoul",
-    "placeId": "ChIJKw66zRCjfDURuaw9qYPdI-k",
-    "placeName": "London Bagel Museum Anguk",
-    "address": "20 Bukchon-ro 4-gil, Jongno District, Seoul, South Korea",
-    "location": {
-      "lat": 37.5791826,
-      "lng": 126.986152
-    },
-    "rating": 4.1,
-    "reviews": [
-      {
-        "author_name": "Rachel Yeung",
-        "rating": 4,
-        "text": "One of the most popular bagel places Korea. The concept is cool to elevate bagels from bakery to restaurant-style dining. Super long queue and getting better when they are opening more branches across Korea.\n\nThe bagels are good but the texture is more on the bread side than the New York chewy style.\n\nTheir bagel spreads though are more noteworthy as there are quite a number of flavours to choose from. My personal favourite is the maple pecan spread!",
-        "time": 1750525091
-      },
-      {
-        "author_name": "Hưng Quốc",
-        "rating": 5,
-        "text": "What a lovely place to visit in Seoul except the waiting line is kinda long nearly an hour for me to dine in at 3pm, but if you take away it might be faster. People at LBM are attentive and adorable, they will guide u to make reservation and you also have free drink and seat while waiting. My order is jalapeno bagel with sausage inside, and the truffle soup, both of them are very good-looking and yummy especially the smell of truffle 🥰. But I did not happy with my seat because its view toward the wall, that not nice to me",
-        "time": 1753182128
-      },
-      {
-        "author_name": "Dennis W.",
-        "rating": 4,
-        "text": "Heard about this place on social media...the hype is real.  Arrived at 11:30 AM and the place was packed, with a large crowd outside as well.... Signed up on the wait-list, and notified there were 121 parties ahead of us.  Yes, that's right .... We were the 122 party in line.  Luckily, there are plenty of other shops and cool unique restaurants in the neighborhood.... We walked around, ate at 2 other places, did some shopping and then our number was finally up.....3 hours later.  Was it worth the wait?  Hmmm, the bagels were definitely soft, chewy and very delicious.... And the spreads and side dishes were also good.... Prices were on the high side for bagels, but there was definitely a selection of bagels not typical at other regular bagel shops.  The interior and vibe evoked a small Inn in the English countryside, but the crowds reminded you that you may be at a tourist spot.  If you want to come, just be prepared to wait.  A long time.",
-        "time": 1750313918
-      },
-      {
-        "author_name": "D Lee",
-        "rating": 5,
-        "text": "If you’re looking for the latest sensation in Korea, look no further than the London Bagel Museum! I decided to check it out early one morning, and let me tell you…the buzz is real. There was already a long line of eager bagel enthusiasts waiting to get inside. After about a 30-minute wait, I finally got in, and it was totally worth it.\n\nThe bagels? Simply divine. Freshly baked, perfectly soft, and with an incredible texture that keeps you coming back for more. If you’re unsure what to try, I can’t recommend the ham and cheese bagel enough…it’s a knockout! Pair it with their fantastic coffee, and you’ve got the perfect breakfast combo.\n\nPlanning a visit? I recommend going on a weekday early in the morning to beat the crowds. Just be prepared for a bit of a wait…trust me, it’s all part of the experience!",
-        "time": 1747749540
-      },
-      {
-        "author_name": "Jeanne S",
-        "rating": 5,
-        "text": "I have been wanting to go here for years already. The queue is always so long especially when it gets busier during the day. After almost 4 failed attempts, we finally got to try during our last visit!\n\nThe tip is to ARRIVE EARLY. They have remote queueing after 9am, but the queue is already too long by then. We planned this way in advance so it was a non-negotiable that we should be there by 7am. When we arrived around 7:15am on a Thursday, we were already 10th in line for dine-in. We waited until opening and got to enter within 10 minutes.\n\nWhen you enter, you’ll be a bit overwhelmed with the amount of bagels you’ll encounter. We were so tempted to try everything! We got a few for dine-in and a few for takeaway. We also ordered the truffle soup, it was good and filling but a bit pricey for what it is in my opinion (around 12,800won). You’ll need to order and pay first then someone will assist you to a table. Very good service even if it’s very busy!\n\nThe bagels were really good!! I’d love to go back to try the other flavors and the spreads! I also love the concept of the brand (similar to their other cafes like Cafe Layered & Artist Bakery).",
-        "time": 1751186641
-      }
-    ],
-    "photos_urls": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpelmpp6ggvM78qv0uWgJDURV4mNPJRvdQzbESqMTUJimG2-EXcImHFh0Y-XW7LbWeorfhsytqw2qH74tH0I6ZwSZxX0Y04AWLzplNIe7knsxfI4Ph0TKS6mMd7tHBs-fVqw8-s1PvMNGAIWiyHXX0VwtqjzIOP9_EVyds1vXCTS5r5nyyhN-6mVdBWFzvkBnAB6Js5AV0hZ0Phj4akKTSH8qSZLUDicvmYCUATCuBxWd8y0EUT1VbtBos-tgg-ELl0_ZPjpUTW4bWbqzaaRQlB7uEV6AsrEbPthZoZGLPFNgw&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpdm0KwaHEenzhqlsSFNlWrdi1xjBrktK2bXBmEmdrOyZeNeeZ2oSb0V8nWPJDZGdcBFq2yqsFhMxBKFdkyDmusXaMstixX4lkHQEQtJ0fDqh_7bYFiLP3-jBU7rB4Pgy_6Fypxji9JBUcEys4vfIXlaKtOTWflMv5CFLIMh46fi5dzUBRc2M_22tz3-tnbSM-6R3xc3-1K2y5k3Hfui8ktlDqCmpKza2wzJDc6U5OsMNGshbcE-h7Sgu_vVkQH2Bg8pRGdgP5E9dUAuNP6uXg8PnhkQU1DDc7Vql8Zx8s08Yi3ck48DDocHKcY1l3QXJvf2-L4f8RrusbGPA7Fn7QYb0NTkj2ICIs9QZOFG56aqe-jcfVrbbIWufAI7lqS3qNQifq4FhMZGUR7hsti-KVj2DaUbdnaIsD9Ls37zQw6d2nlVloYVgrfZHUm-1w&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpeAqbQ5A5aLZHbytft8OAOMXGKcRvaPogO34BSSAIgK_dalypYVgxaqQsF7WTSWPWOH2AI-WEUXYfE3sLnq6_hxAZ90R2UnsvQL8SENLm1z70YZB4M3JzhoZuCZISa0AM8yb6di-8no12bLeU1ahBKxy065fMLbELnVZWwSGVPhj05B7eLPJSJqM6GDzgBJcDLnmYoZgsYc6PfZ6EXfomIb5pN8jnoS7gj3R07PB84RzX8I7Y2ML9KRho8RzWt_PCsgUPzpq0A4A9sYy7r1qjxoT462C6GUAELyL0S2XKXzY4eQkQ8sjsfECrVAf4Kmr2iRBtMISdaNo1PvYNEuSMAV42a07oFi8uDN9X-9MJFMbtVtrm8lTE4X28AFH7I1rH3dn5pA-TArdSwCBxdEySYdWYSK-RAfdDMrFdhTRmnZew&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpewRThzeKNZKXWPcDvT96OuP79OAmBqL4-WYOBa2SARco6MiWWUFJYTZQi4q7JM2MXw82CVm7t4r30s1fqk2XRw9g58mh1GFO2KsfXO_P9QcNBk-Dnb6Y2opHY-JWKtKPf9EluqpJPHXJ1DjPsLj14zjLlDRxqQWZqcBjLUNlilcI6Ftz8CE7aaWQZ41jPMLkwjTWxQmAVl6EJUah1-Db7d65DmB5vw7XQBRnmhG_xhFSfHCw5X7jgb2oGU1MIBJ1FByvBsBpp6qAyCpCDuvBooF1-mIn5WyAdPaDVW2OhsHQaLtjzyoMotecvO2j4ah91cPw1TXH8BjvgscOm5qEr1xF2x0yYRpPxALt0NB8604GLCqVbyzUhViZVes9rwzd1ac9ocX-tSU9w1gijjGN9tqkZ5Zs_CtyRncPezX-beGcnsE_hYqapcbWAX25fI&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpfHONrh5ToXlPEXILE_BKosaFjGrBmflmvnCvC6pSWxoGieFJ8zYyuVMFyzY4p_gcRC8bi-62bslxOHQewXcGBilTJlMRkBq91bQ4O03akjDld23pzjfP8S0swLMHAoKyNL54lS9m7Aez4Y_C4zsx0DkgJK0Evn_-Wk654gTrUx-HFAoebCeoRBttg9mCwKa0gctUh2xXEstYvG7CtdCaTQm3BA7ZSQr6SXihxXa_mhqW7mNoFtMagD4Yb7EFo8-nzVm9TzO651h3C85nPuR3-WY59OAk42w2N5XDXHBeSuAGceXgcgjonIgc_Y4ab_7Dj3nJXFdTypquxnffsY05qsY0EloRBK5MjR7Pzzx72n0WiNKCpeRHh3qkRkbiREAVRWM9r0zJtj-dGsp-Go5w59Bnr0ZEp54o7fVkOZCjQyncUHZOGcpO38S1OM0Yjl&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ"
-    ]
+    "placeQuery": "Bagel, Seoul"
   },
   {
     "title": "Tosokchon Samgyetang",
     "url": "https://maps.app.goo.gl/LXAPbKruBbMpo7jk8",
-    "placeQuery": "Samgyetang, Seoul",
-    "placeId": "ChIJb5OOGL6ifDURU29ID3t8aOA",
-    "placeName": "Tosokchon Samgyetang",
-    "address": "5 Jahamun-ro 5-gil, Jongno District, Seoul, South Korea",
-    "location": {
-      "lat": 37.57777859999999,
-      "lng": 126.9715909
-    },
-    "rating": 4.2,
-    "reviews": [
-      {
-        "author_name": "Liam Chen",
-        "rating": 2,
-        "text": "Not sure what the hype is all about here or it must be an acquired taste or something because the main dishes were bland and I mostly followed the instructions on how to eat it.\n\nThe grilled chicken was dry and lacked any flavor. 4/10\n\nThe ginseng chicken had little flavor and the rice in the middle was just rice with soup. Using the salt and sauce helped a bit but not much. 5/10\n\nThe seafood pancakes were the best thing that we ate. 7/10\n\nThe service here completely sucks. Our waitress was rude and didn’t even give us much time to even look at the menu before storming over and demanding we order. When we ordered, she said we needed to order the dishes equal to the amount of people we had with a snarky attitude. OK, it would had been nice to know that rule first. She then kept rushing us to order like calm down, you just told us this rule and we need some time to look at the menu. The place was mostly empty so not sure why she was rushing us.\n\nAlso, a warning that the drink they gave us when we sat down is straight up liquor would had been nice before we drank it thinking it was tea. We thought they’d only give us the ginseng shot after you order the chicken but they just straight up gave it to us right when we sat down.\n\nOnly good thing was there was no line.",
-        "time": 1754332863
-      },
-      {
-        "author_name": "banana s",
-        "rating": 5,
-        "text": "Been around for ages, beautiful old hanok space converted for business. Very busy, but line moved quickly - wait time ",
-        "time": 1754462683
-      },
-      {
-        "author_name": "Alvin Chan",
-        "rating": 4,
-        "text": "Arrived slightly before lunch and a long queue formed, but the queue moved quite fast.\nAppearance looks traditional and the staffs serves pretty fast.\nPlaced our orders and was promptly served with the ‘ban chan’.\nA small cup of ginseng liquor was served and it was very refreshing with a good ginseng taste to it.\nGinseng chicken soup is really tasty and delicious.\nServing is just nice for one pax.\nWill definitely visit again if ever in Korea.",
-        "time": 1745313157
-      },
-      {
-        "author_name": "Button TSN",
-        "rating": 5,
-        "text": "Absolutely phenomenal experience! From the moment we walked in the ambitions was warm and inviting the staff were incredibly friendly attentive and made us feel right at home every dish was packed with really nice Korean flavour and the kimchi was perfectly spiced. The atmosphere was also incredible. You can tell they put a lot of love into their food easily one of the best Korean dining experiences I've had highly recommend this and. This place had no rude staff and you will not regret coming here. This is not bad and it's very suitable for Asians. Recommend!",
-        "time": 1745221105
-      },
-      {
-        "author_name": "Jason Quek",
-        "rating": 4,
-        "text": "It’s has been more than 10 years I last try this ginseng chicken. The taste is still good but service seems like drop a little even during non-peak hours at 3pm. Probably too tired serving customers since morning.",
-        "time": 1754187256
-      }
-    ],
-    "photos_urls": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpfTRbwv12nc9QUqWA0EyMCFiZMHDlBX6cWvbqvEfd04BiWj4rD9h0u8QJvM38fPstrZwknmWJ1mN9gli5dLLpbqx2hyp-Y-BL2fb6dHnzn1i3jlMRG4I5V4Qi2r4VwQZBy0tF4CB3QYru0OPgyBeIUOd0EnVqop887LPpGhYE-0oZFlnOMLtUYuozgIVCnO-Ac0UIIjGoOd0o58XWx7OT9rmp-U2if8sspD2g4Crz-ou1ZueeAKxmd-eDyM9R0EtqU6efAONBsi9TALFXNWNMHiNj-cBjjksRI8YEbl3C3T5Zh6E_Q9fc10TldOZ-DH-m5OSvLAz0qWwRVzJqj5Kkmgr-x9WqdW9Nwp9ZwpsgRn7d2SrNdnnQDUmf1azQy5xq7lg6OxTQZ_hLqF4c8rDaurAhq3dM0dFzxg3_0MHbURVBIa&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpe8vAKjrcLlzia0ckY7OtN0xMIbZPM4PTw3izIEM5-se5bEfxbgdtiiHexoZ4bqV4mgMN8bYz58l_eipTVELZRaYThtBjs-tn4NtmKUJ8IkOAvddEij8ueonDN3331XI-8lLc6Dvj_nIEJVFU4u1BrBmYgDfF2WpoqkN4fbNqISI9jfrsUDpEy6JpWjCLKLgMH6Y1IboycatbdHJ8aoaNr5msmzzdGl_-RbzFBKJC2bzebEqErTYAn7MIcfrcSqZ8U7OLaotHsV6BpdqQ0Dri5EJ_0zk2fZMmxChKfIF74EoA&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpdVDO1KsKn1Xa3Htj395knUEUyorTF7g1axfY3y1Fsg2x1OJxES1l1ctSq8fQx01u9V_eAeaDP9w785seSNei1BvMiTSgriH4hIp5giM0AXseHlPib_au4okt00URRto3IgdUuamNpFoPWToJH7XeDeSoVeQrPegvFIsnft1Y5hmGopfu2-6X6PxefW_H1XVyXnwie_lTXJtWMxcCqybTzPb8Ce1LhcAhEipAEcAvq9eQwFTWfS-dMREBoMD7YLq9pzDmrfS5N4cbWa60TjXzO1FW9Yss6grGYcuZsjIDTLzzhFzCphVWCHJw0lAmQvxST4FuGCmi0aCi-9jTDXHiWiVeTnwTAaaLHOITQPOphgpPEGWZi_DZrFBc14K6wCAL7c3NYSXgLku0PaqZAhgE8wcfgBw9_qJNJ_PislUx5eyHLcumSAkmhk9fEAwIAl&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpdeVFrqRibJz4Dq00KXClHkcOw6GOMhBq2f8z773VjJwI79guRT9-AkIbSe2Zb4cT3OoIgvdweVlCoqLOThehILZ_Rg-uDiumNmAERuvbbALORwfSUjuc-NFZ6rBx029-gqxMBSdAapqwo7xpd20YUCds09kBlJ1R_TmcwUmcBa7Ru0cyd0R_tiU-uOY9sfcSMB1b57U58F0FyPqfK_d1mcy6LVYtyZ84aUTIGUHmL3c_-WO2r7RvEEfhxYIQ1ojWiAYfJhnatS-A2DlkFEp1EfNDnNBWsD7qsldedaEFEi8axhT9xYZR73VPR3g-pStHWzD-UslF-WUOfxG3i17hXPnSvPW2ZLTzaAH1VZNtRlvnA5aaXUh72pWZZIIAZOYwbk3sN4ZWO8xRQOAi_RIGKkzN8QnPlxcd9rvkalAd1BkIA&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpeYrk1_ELci4annggNLi6nvbdPNzjV921g-1U76d2A37C2qms55O8L45ocXqbWulU04DCXCIzgZmrYa-_B3L8VJqs52rkyYiL2umxitSENVgeulwTv0ZorvhzIb6rVqsuKPs9BvuTtEFjXQ9sxfuEL8ujPpj-sPfCe80_zb5iHqoXBy3i5nWt28hVGS5VZUpTwkvnmoCnqEMb27bgVW8fpDlhkH-XVQaOZLrAym6AEJNxOlNDsqAB3485xqUeLEDLAy4eJujZ3ZoAN7j0B2GHtCoHV4P87jMWlCHjvngegefiSOaW7QqPKayuLR5IHM1SgBeAnt8UfBhP-zFy8RGoG89n-VELn_DN0jRP2GKoXnaNVH9iUFdVTWaJuOVk_ObII9nBg_l0XD-MpToQonWL7riZ2m4S8wUIF8ZnCGUeBBwLERTvG07p_5Q1d0DtoU&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ"
-    ]
+    "placeQuery": "Samgyetang, Seoul"
   },
   {
     "title": "Cafe Archivist",
     "url": "https://maps.app.goo.gl/SrPRdido51pRNj5t5",
-    "placeQuery": "Cafe, Seoul",
-    "placeId": "ChIJlf7x2AhXkFQRY2u5B2ZSeXY",
-    "placeName": "Cafe Seoul",
-    "address": "1805 S 316th St A102, Federal Way, WA 98003, USA",
-    "location": {
-      "lat": 47.3184759,
-      "lng": -122.310784
-    },
-    "rating": 4.7,
-    "reviews": [
-      {
-        "author_name": "virginia dunlap",
-        "rating": 5,
-        "text": "Great taste and price we paid was fair for the amount you get. Taste was amazing and great service. Also tried their dalgona iced coffee it was refreshing and I loved the cream to coffee ratio. Definitely going to return!",
-        "time": 1754083185
-      },
-      {
-        "author_name": "Sally Nam",
-        "rating": 5,
-        "text": "This is a great spot for coffee and Korean snacks.\n\nI didn’t have high expectations before ordering since we’re not from the area, and we just wanted a quick coffee before heading north. We randomly chose this little café, and it turned out to be a delightful experience. The iced Americano was rich and bold, which made it clear they use above-average coffee beans.\n\nThe highlight was the tiny fish-shaped waffle—it was adorable and paired perfectly with the coffee, offering just the right amount of sweetness.\n\nAlthough this place is far from where I live, I highly recommend it to anyone nearby!",
-        "time": 1740016608
-      },
-      {
-        "author_name": "Аня",
-        "rating": 5,
-        "text": "Everything was wonderful! The girl at the counter was very sweet and friendly when talking to us. The coffee was just right – simple and delicious. The peach ade was absolutely divine! On a hot day, having a cold lemonade was perfect. Highly recommend it to everyone. The fish-shaped pastries were a pleasant surprise - I had them with nutella, and they were freshly made just for us. Incredibly tasty and enough for four people. I truly hope this café becomes popular!",
-        "time": 1752529622
-      },
-      {
-        "author_name": "Violet Eng",
-        "rating": 5,
-        "text": "I love this place a lot! They have so much variety of drinks, and they all taste very delicious! The drinks are very different and made very good! The service is a little slower than other places but didn’t bother me much.  A lot of people come here, so I think it will be better if there were more seating. Otherwise, this place is amazing and I love to come here as much as I can.",
-        "time": 1754025020
-      },
-      {
-        "author_name": "Gary Versteege",
-        "rating": 5,
-        "text": "Since I was introduced to this bit of food and coffee heaven, it’s very hard to go elsewhere. The coffee is always correct temperature and mocha is constructed to deliver awesome flavor. The best around locally. Now the food……Delicious and well presented! I would full heartedly recommend this cafe to anyone who enjoys a great cup of coffee and or incredible food accompaniments. This is your place to enjoy quiet enjoyable taste  sensations with welcoming arms of dedicated owners",
-        "time": 1738188946
-      }
-    ],
-    "photos_urls": [
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpeRETZ5yhEikIexoIUqVLJJZ4e1vxfBUCfYVGfVZ0amxB7S9DpdnvG_5tvKq1CSjzAUo7pyomB89j-qUxy_x6ZYwNVG7cw4gpukoUWjfZeWnjZkSQ60wgeW5F5-kx2AqS9dNU30wcMUf2L3D_spGJSnw2ZPfS_Snz7NwIK6x7QwVqxylZu3E1e_iAjvaKNEe53cbwuN6Ihlte5lNxDaejw9z8RmuTIpKm9bGGBjsApkGSoTO7UwWmiaJWIiARcJsZdpNoyeiOpA6351xMoepVOOIqVPYjLZj_RUd_9eho_vmg&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpdwYa_XnYVouBxFERVb3yinIQTT0hzzosc3Y7wegN5lfztZlz88eBvDWYkFlYLuij51ozEUmAcVJRuinH1ZD2bfhOloIzA1PGFESJ1iGb15vdS8D6TLjMCwHT-zL1Vvk-fY82ljdI4sYs9A1qQ2Ag4Xyt7uwrX6PHd3aUkBs3ae1I0fpI2XRAe96Sgph_BMWQT9bUMNRkNPbLKpYzQCXUbP1Ah8lnj5_szZJc0WiIAvKlQFhdEpTmxxIAc1SCFv-Nn0GGPOjSWan6nxI7E4Y0yTeMvbhmSiCNek01LH9wPMMQ&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpeh8wbK1b8oAFd14WujrsGDuYYvMz8vjhQYg_-E01w3ND0_32d-OvMaZG1E3xEYAo74xaI_5oNevLKHGDdfVSSKuqo7e9Cybf4pwcwtRoBCCicDrzIFmRSI3Dt-V2sD-TCddXhYe4Rhar7EQS4_jwbD3RxCDAuuS1ipOAA1lNtI9Pt3CMHkvOhq5zjPsNCcbGIj05lkN9koDNBT9ZxNl571BpF1omaQiKVyYtIylCye7FdL4OV05g1qPil7vL0HsNckctzE72v53UhUl6-eTFM206St4Ub9wLxZM68wjLtlmg&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpdYGPc7WAfshAp6LPlIrOrVGYEnw5dkvPqLCsLNjsgnaQLZm-ZpamcIvphH3gV2YiJ6T9tH68brajg17gcHEK9-J5cd0szs8SWSN3mh6wvoezcHUiqnlJPsbsV0HD_JWoRgjpBRdKSgAPkI2RVzTx8JiV_jB6ZoroGlSlM8_WfBMCqhPJruCyUOkx5UViYNG-3ecrqax75YX5WtkvkPiwrapXQl-sP0WSIPferxg7U1YHAzk40jqchVAgZhbMmK4NCVyWLz5OXlZ_k-Qp0DrMtBMBOShPJ_1hEFvn4vdp5TXiNtrICyamo9KOOw7PJg2jcQl3BFQDT9QZngZVgKOLrqV2EYOXXaaMJiPVNqr5NCP-gRaISeBb84BqCm5Hh4qrT8Q7OzYJVe_JfTDq1HD42i_O5aTh6E1np-YRtuMck&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ",
-      "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photoreference=ATKogpfOvxGeVj5HL-VlunqGH3NNMqu9fpnyEkVritaoWpWA2uyGSEpOdJOAxPdw1DbjUujtZ2B2R0UJGhv8J_XxYnBVz17ul0Yl2eXfmxYCeo32QhXrhwiRsJ5QKCLM9QxtsCJKUN8EmgbvTRMZDgIoq0MFHvA0M4M5k5t27QOu8hSOUeGWUIGYokrBFP2sxYV2eNoTlcIDJovU6tNchE8aZkjSDpIBdJfesepQsC0E-c-zAcCEcUXx1oMi5RvL-g8bT5n0fpFMDx384UqflpKtUJYKO4ZXAYabJHnGsYiGgIL8_Q&key=AIzaSyD79oxftqSfHHXgSaWzKkNAF5cV8vGCZhQ"
-    ]
+    "placeQuery": "Cafe, Seoul"
   }
 ]
