@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+let places;
+try {
+  places = await import('../data/places-built.json');
+  places = places.default || places;
+} catch {
+  places = (await import('../data/places-source.json'));
+  places = places.default || places;
+}
+const mapsKey = import.meta.env.PUBLIC_GOOGLE_MAPS_API_KEY || '';
+const serialized = JSON.stringify(places);
+---
+<Layout title="Food Map">
+  <h1>Food Map</h1>
+
+  <style>
+    .map-layout { display:flex; gap:1rem; margin-top:1rem; height:70vh; }
+    .map-column { flex:2; border:1px solid #eaeaea; border-radius:8px; overflow:hidden; }
+    .review-column { flex:1; border:1px solid #eaeaea; border-radius:8px; padding:1rem; overflow:auto; background:#fff; }
+    #map { width:100%; height:100%; }
+    .review-photo{ max-width:100%; display:block; margin-top:0.5rem; }
+    .review-title{ font-weight:700; margin-bottom:0.25rem; }
+    .rating{ color:#b38900; font-weight:700; margin-bottom:0.5rem; }
+  </style>
+
+  <div class="map-layout">
+    <div class="map-column"><div id="map" role="application" aria-label="Interactive map"></div></div>
+    <aside id="review-pane" class="review-column">
+      <p>Click a marker to view the saved review and photos.</p>
+      <div id="review-content"></div>
+    </aside>
+  </div>
+
+  <script type="application/json" id="__MAP_ENTRIES__">{serialized}</script>
+  <script type="module" src="/map-client.js"></script>
+  <script async defer src={"https://maps.googleapis.com/maps/api/js?key=" + mapsKey + "&callback=initMap"}></script>
+</Layout>

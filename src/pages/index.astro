@@ -7,11 +7,20 @@ import entries from '../data/entries.js';
 <Layout title="English Ajeossi">
   <h1>English Ajeossi</h1>
   <nav>
-    <ul>
-      <li><a href="/my-blog-2/About-me">About</a></li>
-    </ul>
-  </nav>
-  <div class="diary-grid">
+  // ...existing frontmatter/imports...
+---
+<nav>
+  <ul>
+    <li><a href="/my-blog-2/About-me">About</a></li>
+    <li>
+      <a href="/my-blog-2/food-map">
+        <img src="/icons/restaurant.svg" alt="Map" style="width:20px;height:20px;vertical-align:middle;margin-right:6px" />
+        Food Map
+      </a>
+    </li>
+  </ul>
+</nav>
+      <div class="diary-grid">
     {entries.map(entry => <DiaryCard {...entry} />)}
   </div>
 </Layout>
